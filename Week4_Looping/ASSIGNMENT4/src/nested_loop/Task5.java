@@ -5,11 +5,10 @@ public class Task5 {
         int n = 10;
         int a = 0, b = 1;
 
-        System.out.print(a + " " + b);
-
-        for (int i = 2; i < n; i++) {
+        
+        for (int i = 0; i < n; i++) {
+            System.out.print(a + " ");
             int next = a + b;
-            System.out.print(" " + next);
             a = b;
             b = next;
         }

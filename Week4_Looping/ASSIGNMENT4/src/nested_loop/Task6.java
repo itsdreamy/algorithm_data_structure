@@ -2,13 +2,12 @@ package nested_loop;
 
 public class Task6 {
     public static void main(String[] args) {
-        int n = 9;
+        int n = 10;
         int a = 0, b = 0, c = 1;
 
-        System.out.print(a + " " + b + " " + c);
-        for (int i = 2; i < n; i++) {
+        for (int i = 0 ; i < n ; i ++){
+            System.out.print(a + " ");
             int next = a + b + c;
-            System.out.print(" " + next);
             a = b;
             b = c;
             c = next;
