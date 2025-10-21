@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Store{
+public class Store {
     int no, price, qty, subtotal;
     String item;
 
@@ -19,9 +19,9 @@ public class Store{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        ArrayList <Store> products = new ArrayList<>();
+        ArrayList<Store> products = new ArrayList<>();
         int itemNumber = 1;
-        while(true){
+        while (true) {
             System.out.println("Masukkan data barang ke " + itemNumber + ": ");
             System.out.print("Masukkan nama barang : ");
             String itemName = input.nextLine();
@@ -38,7 +38,8 @@ public class Store{
             System.out.println("Apakah anda ingin menambahkan barang lagi? (y/n)");
             String answer = input.nextLine();
 
-            if(answer.equalsIgnoreCase("n")) break;
+            if (answer.equalsIgnoreCase("n"))
+                break;
         }
 
         int grandtotal = 0;
@@ -46,12 +47,13 @@ public class Store{
         System.out.println("------------------------------------------------------------------");
         System.out.printf("%-4s | %-15s | %-8s | %-4s | &-8s\n", "No", "Item", "Price", "Qty", "Subtotal");
         System.out.println("------------------------------------------------------------------");
-        
-        for(Store item:products){
-            System.out.printf("%-4d | %-15s | %-8d | %-4d | %-8d\n", item.no, item.item, item.price, item.qty, item.subtotal);
+
+        for (Store item : products) {
+            System.out.printf("%-4d | %-15s | %-8d | %-4d | %-8d\n", item.no, item.item, item.price, item.qty,
+                    item.subtotal);
             grandtotal += item.subtotal;
         }
-        
+
         System.out.println("------------------------------------------------------------------");
         System.out.println("Total : " + grandtotal);
     }
