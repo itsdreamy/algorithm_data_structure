@@ -1,0 +1,50 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Task7",
+      "request": "launch",
+      "mainClass": "Task7",
+      "projectName": "ASSIGNMENT7_21f65bd5"
+    },
+    {
+      "type": "java",
+      "name": "Task6",
+      "request": "launch",
+      "mainClass": "Task6",
+      "projectName": "ASSIGNMENT7_21f65bd5"
+    },
+    {
+      "type": "java",
+      "name": "Task1",
+      "request": "launch",
+      "mainClass": "Task1",
+      "projectName": "ASSIGNMENT7_21f65bd5"
+    },
+    {
+      "type": "java",
+      "name": "Task5",
+      "request": "launch",
+      "mainClass": "Task5",
+      "projectName": "ASSIGNMENT7_21f65bd5"
+    },
+    {
+      "type": "java",
+      "name": "Task4",
+      "request": "launch",
+      "mainClass": "Task4",
+      "projectName": "ASSIGNMENT7_21f65bd5"
+    },
+    {
+      "type": "java",
+      "name": "Task3",
+      "request": "launch",
+      "mainClass": "Task3",
+      "projectName": "ASSIGNMENT7_21f65bd5"
+    }
+  ]
+}
